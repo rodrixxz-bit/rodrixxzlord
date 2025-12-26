@@ -59,6 +59,51 @@
     color: #ffdd3c !important;
 }
 
+/* Dark mode footer */
+[data-theme="dark"] .footer {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border-top: 4px solid #ffdd3c;
+}
+
+[data-theme="dark"] .footer::before {
+    background: linear-gradient(90deg, #ffdd3c, #ffec8a, #ffdd3c);
+}
+
+[data-theme="dark"] .footer-logo {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .footer-logo:hover {
+    color: #ffdd3c;
+    text-shadow: 3px 3px 6px rgba(255, 221, 60, 0.4);
+}
+
+[data-theme="dark"] .social-links a {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 221, 60, 0.2);
+    color: #fff;
+}
+
+[data-theme="dark"] .social-links a:hover {
+    color: #ffdd3c;
+    background: rgba(255, 221, 60, 0.1);
+    border-color: #ffdd3c;
+    box-shadow: 0 10px 25px rgba(255, 221, 60, 0.3);
+}
+
+[data-theme="dark"] .social-links a i {
+    color: #fff;
+}
+
+[data-theme="dark"] .social-links a:hover i {
+    color: #ffdd3c;
+}
+
+[data-theme="dark"] .copyright {
+    color: rgba(255, 255, 255, 0.8);
+}
+
 /* System preference */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
