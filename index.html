@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrixxz - Minecraft Creations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Rodrixxz</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#mods">Mods</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Technical Survival World</h1>
+                <h2 class="fade-in">Creator Showcase</h2>
+                <p class="fade-in">Welcome to my Minecraft portfolio where I showcase my technical builds, modpacks, and creative projects. Each creation tells a unique story of fun and design.</p>
+                <a href="#media" class="cta-button fade-in">Watch the Tour</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- World Section -->
+    <section id="world" class="world-section">
+        <div class="container">
+            <h2 class="section-title">The World</h2>
+            <div class="world-content">
+                <div class="world-text">
+                    <p>Explore the vast landscapes and intricate builds of my Minecraft world. Each structure is carefully designed with both aesthetics and functionality in mind, showcasing the best of technical Minecraft gameplay.</p>
+                    <div class="world-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="1"> </span>
+                            <span class="stat-label">Builds</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="216"> </span>
+                            <span class="stat-label">Hours Played</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Gallery Section -->
+    <section id="media" class="media-section">
+        <div class="container">
+            <h2 class="section-title"> Gallery </h2>
+            
+            <!-- Image Gallery -->
+            <div class="gallery-section">
+                <h3>My world Gallery</h3>
+                <div class="image-gallery">
+                    <!-- Gallery Items -->
+                    <div class="gallery-item">
+                        <img src="img/1.png" alt="My technical Survival" data-full="img/1.png">
+                        <div class="image-info">My technical Survival!</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/2.png" alt="My Iron Farm" data-full="img/2.png">
+                        <div class="image-info">My Iron Farm!</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/3.png" alt="My world a little closer" data-full="img/3.png">
+                        <div class="image-info">My world a little closer!</div>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Mods Section -->
+    <section id="mods" class="mods-section">
+        <div class="container">
+            <div class="mods-content">
+                <div class="mods-info">
+                    <h2 class="section-title">Mods I Use</h2>
+                    <p>These are the essential mods that enhance my Minecraft experience. Each mod brings unique features and improvements to the game.</p>
+                    <a href="https://modrinth.com" target="_blank" class="cta-button">View on Modrinth</a>
+                </div>
+                
+                <div class="mods-showcase">
+                    <div class="scroll-container">
+                        <div class="scroll-nav">
+                            <button class="scroll-btn prev" id="scrollPrev">
+                                <i class="fas fa-chevron-up"></i>
+                            </button>
+                            <div class="scroll-indicators">
+                                <span class="indicator active"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                                <span class="indicator"></span>
+                            </div>
+                            <button class="scroll-btn next" id="scrollNext">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="mods-scroll-frame" id="modsScrollFrame">
+                            <div class="mod-item" data-link="https://modrinth.com/mod/sodium">
+                                <div class="mod-icon">
+                                    <img src="img/sodium.png" alt="Sodium Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Sodium</h3>
+                                    <p>Better performance!</p>
+                                </div>
+                            </div>
+                            <div class="mod-item" data-link="https://modrinth.com/mod/sodium-extra">
+                                <div class="mod-icon">
+                                    <img src="img/sodium_extra.png" alt="sodium-extra Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Sodium Extra</h3>
+                                    <p>More FPS!</p>
+                                </div>
+                            </div>
+                            <div class="mod-item" data-link="https://modrinth.com/mod/lithium">
+                                <div class="mod-icon">
+                                    <img src="img/lithium.png" alt="lithium Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Lithium</h3>
+                                    <p>Much more and more FPS!</p>
+                                </div>
+                            </div>
+                             <div class="mod-item" data-link="https://modrinth.com/mod/modmenu">
+                                <div class="mod-icon">
+                                    <img src="img/mod_menu.png" alt="Mod Menu Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Mod Menu</h3>
+                                    <p>Customize!</p>
+                                </div>
+                            </div>
+                            <div class="mod-item" data-link="https://modrinth.com/mod/inventoryhudplus">
+                                <div class="mod-icon">
+                                    <img src="img/inventoryhudplus.png" alt="InventoryHUD+ Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>InventoryHUD+</h3>
+                                    <p>Better UI!</p>
+                                </div>
+                            </div>
+                             <div class="mod-item" data-link="https://modrinth.com/mod/flashback">
+                                <div class="mod-icon">
+                                    <img src="img/flashback.png" alt="flashback Logo" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Flashback</h3>
+                                    <p>Cinematic!</p>
+                                </div>
+                            </div>
+                             <div class="mod-item" data-link="https://modrinth.com/mod/shulkerboxtooltip">
+                                <div class="mod-icon">
+                                    <img src="img/SBTT.png" alt="Shulker Box Tooltip" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Shulker Box Tooltip </h3>
+                                    <p>just like a backpack!</p>
+                                </div>
+                            </div>
+                             <div class="mod-item" data-link="https://modrinth.com/mod/zoomify">
+                                <div class="mod-icon">
+                                    <img src="img/Zoomify.png" alt="zoomify" class="mod-logo">
+                                </div>
+                                <div class="mod-text">
+                                    <h3>Zoomify</h3>
+                                    <p>Zoom!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- YouTube Videos Section -->
+            <div class="videos-section">
+                <h3>YouTube Videos</h3>
+                <div class="video-gallery">
+                    <!-- Add your YouTube videos here -->
+                    <div class="gallery-item">
+                        <div class="video-container">
+                            <iframe 
+                                src="https://www.youtube.com/embed/jfKfPfyJRdk" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="video-container">
+                            <iframe 
+                                src="https://www.youtube.com/embed/9Pm_1nK2T2E" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Rodrixxz</div>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@Rodrixxz_" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/rodrixxz-bit" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://patreon.com/Rodrixxzlord" target="_blank" rel="noopener noreferrer" aria-label="Patreon"><i class="fab fa-patreon"></i></a>
+                    <a href="https://www.tiktok.com/@rodriii._haha" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Rodrixxz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+ <!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <button class="lightbox-nav prev" aria-label="Previous image">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-nav next" aria-label="Next image">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
