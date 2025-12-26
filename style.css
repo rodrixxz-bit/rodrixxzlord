@@ -62,7 +62,17 @@
 /* Dark mode footer */
 [data-theme="dark"] .footer {
     background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #fff;
+    padding: 4rem 0 2rem;
     border-top: 4px solid #ffdd3c;
+    margin-top: 4rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] .footer::before {
