@@ -442,13 +442,13 @@ section {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, rgba(18, 18, 18, 0.95), rgba(30, 30, 30, 0.9));
+    background: #1a1a1a;
     color: var(--footer-text);
-    padding: 3rem 0 2rem;
+    padding: 4rem 0 3rem;
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(255, 221, 60, 0.1);
+    border-top: 3px solid var(--primary-color);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .footer::before {
@@ -588,9 +588,9 @@ opacity: 0.8;
 
 /* Dark mode specific footer styles */
 [data-theme="dark"] .footer {
-background: linear-gradient(135deg, rgba(18, 18, 18, 0.95), rgba(30, 30, 30, 0.9));
-backdrop-filter: blur(10px);
-border-top: 1px solid rgba(255, 221, 60, 0.1);
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    border-top: 3px solid var(--primary-color);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
 }
 
 [data-theme="dark"] .social-links a {
